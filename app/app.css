@@ -1,0 +1,51 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.btn {
+  margin: 0 10px;
+  color: white;
+  /* making button more rouned*/
+  border-radius: 18px; 
+}
+.btn.blue {
+  background-color: rgb(31, 119, 180);
+}
+.btn.orange {
+  background-color: rgb(255, 127, 14);
+}
+
+.btn.green {
+  background-color: rgb(44, 160, 44);
+}
+.btn.red {
+  background-color: rgb(214, 39, 40);
+}
+.btn.purple {
+  background-color: rgb(148, 103, 189);
+}
+.btn.brown {
+  background-color: rgb(140, 86, 75);
+}
